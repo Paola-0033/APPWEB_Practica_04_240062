@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cancionero -  Envianos tu solicitud   </title>
+    <link rel="icon" type="imagen/x-icon" href="imagen/Music_29918 (1).ico">
+</head>
+
+<body>
+  <h2>FORMULARIO DE SOLICITUDES DE NUEVA CANCION </h2>
+  <hr>
+
+  <from>
+    <fieldset>
+      <legend> Datos de la cancion que deseas registrar.....</legend>
+      <br>
+      <label for="nombreCancion">Nombre de la cancion </label>
+      <input type="text" name ="nombreCancion" id="nombreCancion" size="50" placeholder="Por favor ingresa el titulo de la cancion" style="text-align: right;" required></input>
+      <br>
+      <br>
+      <label for="autorCancion">Autor(es):</label>
+      <input type="text" name="autorCancion" id="autorCancion" size="80" placeholder="Ingresa el nombre completo de los autores separados por una coma(,)" required style="text-align: right;">
+       <br>
+       <br>
+       <label for="interpreteCancion">Interprte: </label>
+       <input type="text" name="interpreteCancion" id="interpreteCancion" placeholder="Ingresa el nombre del cantante solista o grupo musical" required style="text-align: right;" size="70">
+       <br>
+       <br>
+       <label for="generoMusical">Escoge el genero musical al que pertenece </label>
+       <select>
+        <option>Classica</option>
+        <option>Electronica</option>
+        <option>Hip hop</option>
+        <option>Instrumental </option>
+        <option>Jazz</option>
+        <optgroup label="Latina">
+          <option>Bachata</option>
+          <option>Cumbia</option>
+          <option>Regge</option>
+          <option>Reggeton</option>
+          <option>Salsa</option>
+          <option>Trap</option>
+        </optgroup>
+        <option>Pop</option>
+        <optgroup label="Regional">
+          <option>Corridos </option>
+          <option>Huapangos </option>
+          <option>Mariachi</option>
+          <option>Norteña </option>
+          <option>Ranchera </option>
+         </optgroup>
+        <optgroup label="rock">
+          <option>Alternativo</option>
+          <option>Britpop</option>
+          <option>Grunge</option>
+          <option>Heavy metal </option>
+          <option>Indie</option>
+          <option>Progresivo </option>
+          <option>Punk</option>
+        </optgroup>
+       </select>
+       <br>
+       <br>
+       <h3>Letra de la cancion</h3>
+       <textarea name="letraCancion" id="letraCancion" cols="130" rows="10" style="resize: center ;"></textarea>
+       <br>
+       <br>
+
+       ><input type="checkbox" name="contenidoSugetivo" id="contenidoSugetivo">
+       <label for="contenidoSugetivo">La letra d la cancion contiene tiene <b>contenido sugestivo</b> <i>(Palabras antisonantes ,doble sentido,frass sexistas o alusivas al consumo de drogas) </i> </label>
+       <br>
+       <br>
+    </fieldset>
+    <br>
+    <br>
+
+    <fieldset>
+        <legend>Archivos multimedia de la cancion </legend>
+        <label for="audioCancion">Selecciona el archivo de audio(mp3 , .wav , .midi, acc , wna.)</label>
+        <input type="file" accept="mp3 , .wav , .midi, acc , wna." id="audioCancion">
+        <br>
+        <br>
+        <label for="videoCancion">Selecciona el archivo del video de la cancion (mp4 , .avi , .mpg, webn, nov, .vmv , .mkv.)</label>
+        <input type="file" accept="mp4 , .avi , .mpg, webn, nov, .vmv , .mkv." id="videoCancion">
+        <br>
+        <br>
+        <label for="portadaCancion">Selecciona el archivo de imagen de la cancion  (png , jpg , .gif , webn, nov, .vmv , .mkv.)</label>
+        <input type="file" accept="mp4 , .avi , .mpg, webn, nov, .vmv , .mkv." id="portadaCancion">
+       </fieldset>
+       <br>
+       <br>
+       <fieldset>
+        <legend>Estadistica en Plataformas musicales </legend>
+
+        <table >
+        <tr>
+            <td><img src="imagen/icons8-música-de-youtube-48.png" title="Youtube"></td>
+            <td>Reproducciones : <input type="number"></td>
+            <td> me gustas : <input type="number"></td>
+        </tr>
+          <tr>
+            <td> <img src="imagen/icons8-spotify-48.png" title=" Spotify"></td>
+            <td>Reproducciones : <input type="number"></td>
+            <td> me gustas : <input type="number"></td>
+        </tr>
+          <tr>
+            <td><img src="imagen/icons8-apple-music-48 (1).png" title="Apple music"></td>
+            <td>Reproducciones : <input type="number"></td>
+            <td> me gustas : <input type="number"></td>
+        </tr>
+          <tr>
+            <td><img src="imagen/icons8-musica-amazonas-48.png" title="Amazon music"></td>
+            <td>Reproducciones : <input type="number"></td>
+            <td> me gustas : <input type="number"></td>
+        </tr>
+
+        </table>
+       </fieldset>
+       <br>
+       <br>
+       
+      <input type="submit" value="registrar la cancion ">
+      <input type="reset" value="Limpiar formulario">    
+        
+      <br>
+      <br>
+  </from>
+
+</body>
