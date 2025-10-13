@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cancionero - 240062 Contactanos :</title>
+    <link rel="icon" type="imagen/x-icon" href="imagen/Music_29918 (1).ico">
+</head>
+
+<body>
+  <h2>FORMULARIO DE CONTACTANOS  </h2>
+  <hr>
+
+  <form>
+    <fieldset>
+        <legend>Contactanos</legend>
+        <h3>Dejanos tus datos </h3>
+        <br>
+        <label for="nombreContacto">Nombre :</label>
+        <input id="nombreContacto" type="text" size="70" required placeholder="deja tu nombre para poder contactarte..."></input>
+        <br>
+        <br>
+        <label for="emailContacto">Correo Electronico:</label>
+        <input type="email" size="50" required placeholder="correo@dominio.exit"></input>
+        <br>
+        <br>
+        <label for="telefonoContacto">Numero telefonico:</label>
+        <select>
+            <option value="">Fijo </option>
+            <option value="">Móvil </option>
+        </select>
+
+        <input type="tel" id="telefonoContacto" placeholder="p.e: (555)-548-24-14" pattern="[0-9](3)-[0-9]{3}-[0-9]-{2}-[0-9]{2}"></input>
+        <br>
+        <br>
+        <label for="asuntoMensaje">Asuntos Mensajes:</label>
+        <input id="asuntoMensaje" type="text" size="70" required placeholder="Titulo del mensaje"></input>
+        <br><br>
+        <label for="mensaje">Describe el mensaje de inquietud :</label>
+        <input id="mensaje" style="resize: none;" cols="100" rows="10">
+
+    </fieldset>
+    <br>
+    <br>
+    <input type="submit" value="Enviar reporte">
+    <input type="reset" value="Limpiar formulario">
+  </form>
+</body>
